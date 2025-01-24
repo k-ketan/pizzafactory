@@ -1,0 +1,30 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  TargetRubyVersion: 3.2
+  NewCops: enable
+  SuggestExtensions: false
+
+Metrics/LineLength:
+  Max: 180
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 29
+
+Style/Documentation:
+  Exclude:
+    - 'test/**/*'
+    - 'app/models/**/*'
+    - 'app/controllers/**/*'
+    - 'app/helpers/**/*'
+    - 'app/mailers/**/*'
+    - 'config/application.rb'
+    - 'config/environments/**/*'
+    - 'db/migrate/**/*'
+    
+Lint/NonLocalExitFromIterator:
+  Enabled: false

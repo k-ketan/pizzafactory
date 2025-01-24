@@ -1,0 +1,14 @@
+one:
+  name: MyString
+  category: 1
+  size: 1
+  price: 9.99
+  order: order_one
+
+pizza_with_cheese:
+  name: "Pizza with Cheese"
+  price: 9.99
+  category: vegetarian
+  size: medium
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>

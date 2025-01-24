@@ -1,0 +1,9 @@
+vendor_user:
+  email: 'vendor@example.com'
+  encrypted_password: 'password'
+  role: 'vendor'
+
+regular_user:
+  email: 'user@example.com'
+  encrypted_password: 'password'
+  role: 'customer'

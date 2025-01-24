@@ -1,0 +1,19 @@
+topping_cheese:
+  name: MyString
+  price: 9.99
+  category: Dairy
+
+topping_pepperoni:
+  name: MyString
+  price: 9.99
+  category: 1
+
+topping_mushrooms:
+  name: MyString
+  price: 9.99
+  category: 1
+
+topping_truffle:
+  name: MyString
+  price: 9.99
+  category: 1

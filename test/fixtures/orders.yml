@@ -1,0 +1,10 @@
+order_one:
+  customer_name: "John Doe"
+  status: "pending"
+
+order_confirmed:
+  customer_name: "John Doe"
+  status: "confirmed"
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+
